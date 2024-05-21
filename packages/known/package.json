@@ -1,0 +1,16 @@
+{
+  "name": "@dotreasury/known",
+  "version": "3.0.0",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "scripts": {
+    "saveHeight": "node src/index.js"
+  },
+  "dependencies": {
+    "@osn/scan-common": "0.5.0",
+    "dotenv": "^8.2.0",
+    "mongodb": "4.6.0"
+  }
+}
