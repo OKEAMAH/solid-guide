@@ -1,0 +1,33 @@
+{
+  "name": "dotreasury",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/semantic-ui-css"
+    ]
+  },
+  "repository": "git@github.com:opensquare-network/dotreasury.git",
+  "author": "OpenSquare <https://www.opensquare.network/>",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "scripts": {
+    "start": "yarn workspace @dotreasury/site start",
+    "deploy": "yarn workspace @dotreasury/site deploy",
+    "build": "yarn workspace @dotreasury/site build",
+    "server-prod": "yarn workspace @dotreasury/server prod",
+    "test": "yarn workspace @dotreasury/output-scan test"
+  },
+  "devDependencies": {
+    "husky": "^7.0.2",
+    "pinst": "^2.1.6"
+  },
+  "dependencies": {
+    "prettier": "^2.2.1"
+  },
+  "packageManager": "yarn@3.5.0"
+}
