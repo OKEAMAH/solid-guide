@@ -1,0 +1,35 @@
+{
+  "name": "@dotreasury/server",
+  "version": "3.0.0",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@osn/ipfs": "^0.1.0",
+    "@polkadot/util": "12.5.1",
+    "@polkadot/util-crypto": "12.5.1",
+    "bignumber.js": "^9.1.1",
+    "dotenv": "16.1.4",
+    "ipfs-only-hash": "^4.0.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-helmet": "^6.0.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0",
+    "lodash.chunk": "^4.2.0",
+    "lodash.isnil": "^4.0.0",
+    "lodash.negate": "^3.0.2",
+    "lodash.omit": "^4.5.0",
+    "markdown-it": "^12.3.2",
+    "mongodb": "6.1.0",
+    "multiformats": "^9.7.1",
+    "node-fetch": "^3.3.0",
+    "pluralize": "^8.0.0",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/koa-router": "^7.4.1"
+  }
+}
