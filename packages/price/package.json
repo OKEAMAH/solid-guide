@@ -1,0 +1,22 @@
+{
+  "name": "@dotreasury/price",
+  "version": "3.0.0",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "scripts": {
+    "deploy:ksm": "pm2 start ecosystem.config.js --only ksm-price-tracker",
+    "deploy:dot": "pm2 start ecosystem.config.js --only dot-price-tracker",
+    "deploy:calc": "pm2 start ecosystem.config.js --only calc-price"
+  },
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "bignumber.js": "^9.1.1",
+    "dayjs": "^1.10.4",
+    "dotenv": "16.1.4",
+    "minimist": "^1.2.6",
+    "mongodb": "6.1.0",
+    "node-fetch": "^2.6.7"
+  }
+}
