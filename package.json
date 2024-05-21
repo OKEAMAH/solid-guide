@@ -1,0 +1,27 @@
+{
+  "name": "dotreasury",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "repository": "git@github.com:opensquare-network/dotreasury.git",
+  "author": "OpenSquare <https://www.opensquare.network/>",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "scripts": {
+    "server-prod": "yarn workspace @dotreasury/server prod",
+    "test": "yarn workspace @dotreasury/output-scan test"
+  },
+  "devDependencies": {
+    "husky": "^7.0.2",
+    "pinst": "^2.1.6"
+  },
+  "dependencies": {
+    "prettier": "^2.2.1"
+  },
+  "packageManager": "yarn@3.5.0"
+}
