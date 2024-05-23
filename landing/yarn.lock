@@ -1000,11 +1000,11 @@ __metadata:
   linkType: hard
 
 "@osn/eslint-config@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "@osn/eslint-config@npm:1.0.1"
+  version: 1.0.2
+  resolution: "@osn/eslint-config@npm:1.0.2"
   peerDependencies:
     eslint: ">=7.4.0"
-  checksum: a4ab344c1782ab7c5cad73a2b73126e8f0aae926967ec1f47204d870a03f529952ec4b05b0a251490be9b70be07b10aeee677a755183927dc15235d8ce2cc9d0
+  checksum: 94cb9a8b51f6ff8de52fc701f9a44dd466c5414705f8af7c890fc757339fbc85ce1b592c51b0444e83832f11c3f433aceea39abd14d4119d789144eec8172c69
   languageName: node
   linkType: hard
 
