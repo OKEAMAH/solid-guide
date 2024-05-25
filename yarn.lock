@@ -3468,11 +3468,11 @@ __metadata:
   linkType: hard
 
 "@types/koa-router@npm:^7.4.1":
-  version: 7.4.4
-  resolution: "@types/koa-router@npm:7.4.4"
+  version: 7.4.8
+  resolution: "@types/koa-router@npm:7.4.8"
   dependencies:
     "@types/koa": "*"
-  checksum: 23ff5b725daa1427dc822602f5d4fdcecca5f990595af48879e41338a9c71819ae312326028eef4645beb6ea32ea852416e2f0761a2abd5bf80c2575a3301837
+  checksum: 30b9735748f25ac338ec4197430a10f1cf58eeea0445f0b64733ed95df82b9245a31c01bbfdd3c9b71e90aa7a1ccf9546f4dd91bac87f6186152e67146ad9b6c
   languageName: node
   linkType: hard
 
