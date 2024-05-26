@@ -1602,7 +1602,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.4, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.4, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.22.15
   resolution: "@babel/runtime@npm:7.22.15"
   dependencies:
@@ -1709,7 +1709,7 @@ __metadata:
     react-chartjs-2: ^5.0.1
     react-dom: ^18.2.0
     react-markdown: ^5.0.3
-    react-redux: ^7.2.2
+    react-redux: ^9.1.2
     react-router: ^5.2.0
     react-router-dom: ^5.2.0
     react-slider: ^2.0.6
@@ -3078,16 +3078,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/hoist-non-react-statics@npm:^3.3.0":
-  version: 3.3.1
-  resolution: "@types/hoist-non-react-statics@npm:3.3.1"
-  dependencies:
-    "@types/react": "*"
-    hoist-non-react-statics: ^3.3.0
-  checksum: 2c0778570d9a01d05afabc781b32163f28409bb98f7245c38d5eaf082416fdb73034003f5825eb5e21313044e8d2d9e1f3fe2831e345d3d1b1d20bcd12270719
-  languageName: node
-  linkType: hard
-
 "@types/json-schema@npm:^7.0.9":
   version: 7.0.12
   resolution: "@types/json-schema@npm:7.0.12"
@@ -3125,43 +3115,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prop-types@npm:*":
-  version: 15.7.5
-  resolution: "@types/prop-types@npm:15.7.5"
-  checksum: 5b43b8b15415e1f298243165f1d44390403bb2bd42e662bca3b5b5633fdd39c938e91b7fce3a9483699db0f7a715d08cef220c121f723a634972fdf596aec980
-  languageName: node
-  linkType: hard
-
-"@types/react-redux@npm:^7.1.20":
-  version: 7.1.26
-  resolution: "@types/react-redux@npm:7.1.26"
-  dependencies:
-    "@types/hoist-non-react-statics": ^3.3.0
-    "@types/react": "*"
-    hoist-non-react-statics: ^3.3.0
-    redux: ^4.0.0
-  checksum: 7f299f15ca8790c2e2683ad776ea4cbd5c38247f7a9fbddbc64ff4b235883238c772dc0e2687e328ba690d3b0c6a51b026c5fad719183595df87a91a1060094c
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:*":
-  version: 18.2.21
-  resolution: "@types/react@npm:18.2.21"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: ffed203bfe7aad772b8286f7953305c9181ac3a8f27d3f5400fbbc2a8e27ca8e5bbff818ee014f39ca0d19d2b3bb154e5bdbec7e232c6f80b59069375aa78349
-  languageName: node
-  linkType: hard
-
-"@types/scheduler@npm:*":
-  version: 0.16.3
-  resolution: "@types/scheduler@npm:0.16.3"
-  checksum: 2b0aec39c24268e3ce938c5db2f2e77f5c3dd280e05c262d9c2fe7d890929e4632a6b8e94334017b66b45e4f92a5aa42ba3356640c2a1175fa37bef2f5200767
-  languageName: node
-  linkType: hard
-
 "@types/semver@npm:^7.3.12":
   version: 7.5.1
   resolution: "@types/semver@npm:7.5.1"
@@ -3173,6 +3126,13 @@ __metadata:
   version: 2.0.8
   resolution: "@types/unist@npm:2.0.8"
   checksum: f4852d10a6752dc70df363917ef74453e5d2fd42824c0f6d09d19d530618e1402193977b1207366af4415aaec81d4e262c64d00345402020c4ca179216e553c7
+  languageName: node
+  linkType: hard
+
+"@types/use-sync-external-store@npm:^0.0.3":
+  version: 0.0.3
+  resolution: "@types/use-sync-external-store@npm:0.0.3"
+  checksum: 161ddb8eec5dbe7279ac971531217e9af6b99f7783213566d2b502e2e2378ea19cf5e5ea4595039d730aa79d3d35c6567d48599f69773a02ffcff1776ec2a44e
   languageName: node
   linkType: hard
 
@@ -4121,13 +4081,6 @@ __metadata:
     css-color-keywords: ^1.0.0
     postcss-value-parser: ^4.0.2
   checksum: 263be65e805aef02c3f20c064665c998a8c35293e1505dbe6e3054fb186b01a9897ac6cf121f9840e5a9dfe3fb3994f6fcd0af84a865f1df78ba5bf89e77adce
-  languageName: node
-  linkType: hard
-
-"csstype@npm:^3.0.2":
-  version: 3.1.2
-  resolution: "csstype@npm:3.1.2"
-  checksum: e1a52e6c25c1314d6beef5168da704ab29c5186b877c07d822bd0806717d9a265e8493a2e35ca7e68d0f5d472d43fac1cdce70fd79fd0853dff81f3028d857b5
   languageName: node
   linkType: hard
 
@@ -5205,7 +5158,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -5506,7 +5459,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hoist-non-react-statics@npm:^3.0.0, hoist-non-react-statics@npm:^3.1.0, hoist-non-react-statics@npm:^3.3.0, hoist-non-react-statics@npm:^3.3.2":
+"hoist-non-react-statics@npm:^3.0.0, hoist-non-react-statics@npm:^3.1.0":
   version: 3.3.2
   resolution: "hoist-non-react-statics@npm:3.3.2"
   dependencies:
@@ -7235,13 +7188,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react-is@npm:17.0.2"
-  checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
-  languageName: node
-  linkType: hard
-
 "react-markdown@npm:^5.0.3":
   version: 5.0.3
   resolution: "react-markdown@npm:5.0.3"
@@ -7277,24 +7223,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-redux@npm:^7.2.2":
-  version: 7.2.9
-  resolution: "react-redux@npm:7.2.9"
+"react-redux@npm:^9.1.2":
+  version: 9.1.2
+  resolution: "react-redux@npm:9.1.2"
   dependencies:
-    "@babel/runtime": ^7.15.4
-    "@types/react-redux": ^7.1.20
-    hoist-non-react-statics: ^3.3.2
-    loose-envify: ^1.4.0
-    prop-types: ^15.7.2
-    react-is: ^17.0.2
+    "@types/use-sync-external-store": ^0.0.3
+    use-sync-external-store: ^1.0.0
   peerDependencies:
-    react: ^16.8.3 || ^17 || ^18
+    "@types/react": ^18.2.25
+    react: ^18.0
+    redux: ^5.0.0
   peerDependenciesMeta:
-    react-dom:
+    "@types/react":
       optional: true
-    react-native:
+    redux:
       optional: true
-  checksum: 369a2bdcf87915659af9e5c55abfd9f52a84e43e0d12dcc108ed17dbe6933558b7b7fc12caa9c10c1a10a8be7df89454b6c96989d8573fedec1a772c94a1f145
+  checksum: 1ee9cf41f29f68267320b4fc3bcf6a76a3825c82441612582678ddd827a2b60834f687d2a8b755c905885dfce476a1eb41af42b36f4dd71f8ee9991296a1e515
   languageName: node
   linkType: hard
 
@@ -7381,7 +7325,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redux@npm:^4.0.0, redux@npm:^4.0.5, redux@npm:^4.2.1":
+"redux@npm:^4.0.5, redux@npm:^4.2.1":
   version: 4.2.1
   resolution: "redux@npm:4.2.1"
   dependencies:
@@ -7530,7 +7474,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.4#~builtin<compat/resolve>":
   version: 1.22.4
-  resolution: "resolve@patch:resolve@npm%3A1.22.4#~builtin<compat/resolve>::version=1.22.4&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.4#~builtin<compat/resolve>::version=1.22.4&hash=07638b"
   dependencies:
     is-core-module: ^2.13.0
     path-parse: ^1.0.7
@@ -7543,7 +7487,7 @@ __metadata:
 
 "resolve@patch:resolve@^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -8493,6 +8437,15 @@ __metadata:
   peerDependencies:
     react: ">=16.13"
   checksum: 2b9b6291df3f772f44d259b352e5d998963ccee0db2efeb76bb05525d928064aeeb69bb0dee5a5e428fea7cf3db67c097a770ebd30caa080662b565f6ef02b2e
+  languageName: node
+  linkType: hard
+
+"use-sync-external-store@npm:^1.0.0":
+  version: 1.2.2
+  resolution: "use-sync-external-store@npm:1.2.2"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: fe07c071c4da3645f112c38c0e57beb479a8838616ff4e92598256ecce527f2888c08febc7f9b2f0ce2f0e18540ba3cde41eb2035e4fafcb4f52955037098a81
   languageName: node
   linkType: hard
 
