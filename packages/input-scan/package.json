@@ -9,7 +9,7 @@
     "test": "jest src"
   },
   "dependencies": {
-    "@osn/scan-common": "0.6.3",
+    "@osn/scan-common": "0.6.10",
     "@polkadot/api": "10.10.1",
     "bignumber.js": "^9.1.1",
     "dotenv": "16.1.4",
