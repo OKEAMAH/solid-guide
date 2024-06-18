@@ -6,7 +6,7 @@
   "dependencies": {
     "@graphql-tools/schema": "^10.0.0",
     "@interlay/monetary-js": "^0.5.4",
-    "@osn/polkadot-api-container": "^1.1.11",
+    "@osn/polkadot-api-container": "^1.1.12",
     "@osn/scan-common": "0.6.3",
     "ccxt": "^4.2.98",
     "cron": "^3.1.7",
